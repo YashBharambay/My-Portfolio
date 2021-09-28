@@ -309,7 +309,7 @@ strong {
   background: #0c0c0d;
 }
 .dark-mode .navbar-light .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.8);
+  color: #ffffff;
 }
 .dark-mode .navbar-light .navbar-nav .nav-link:hover {
   color: #ffc200;
@@ -324,6 +324,7 @@ strong {
 }
 .dark-mode .feature-card .uil,
 .dark-mode .navbar-light .navbar-brand,
+/* .dark-mode p, */
 .dark-mode h1,
 .dark-mode h2,
 .dark-mode h3,
@@ -332,6 +333,10 @@ strong {
 .dark-mode h6,
 .dark-mode .color-mode {
   color: #ffffff;
+}
+
+.dark-mode p {
+  color: #eeeeee;
 }
 .dark-mode .owl-carousel .owl-nav button.owl-next,
 .dark-mode .owl-carousel .owl-nav button.owl-prev,

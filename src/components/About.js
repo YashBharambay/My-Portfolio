@@ -21,10 +21,10 @@ const About = () => {
         <div className="row">
           <div className="col-lg-7 col-md-12 col-12 d-flex align-items-center">
             <div className="about-text">
-              <small className="small-text">
+              {/* <small className="small-text">
                 Welcome to{" "}
                 <span className="mobile-block">my portfolio website!</span>
-              </small>
+              </small> */}
               <h1 className="animated animated-text">
                 <span className="mr-2">Hey folks,I&#39;m</span>
                 <div className="animated-info">
