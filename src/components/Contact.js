@@ -89,6 +89,12 @@ const Contact = () => {
                     {/* <img src="https://img.icons8.com/dotty/30/000000/linkedin.png" /> */}
                   </a>
                 </li>
+                <li>
+                  <a href="https://github.com/YashBharambay" target="blank">
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" />
+                    {/* <img src="https://img.icons8.com/plasticine/30/000000/github.png" /> */}
+                  </a>
+                </li>
               </ul>
             </div>
           </div>
