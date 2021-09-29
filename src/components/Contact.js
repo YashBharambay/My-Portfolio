@@ -95,6 +95,11 @@ const Contact = () => {
                     {/* <img src="https://img.icons8.com/plasticine/30/000000/github.png" /> */}
                   </a>
                 </li>
+                <li>
+                  <a href="https://twitter.com/YBharambay" target="blank">
+                    <img src="https://img.icons8.com/fluency/30/000000/twitter.png" />
+                  </a>
+                </li>
               </ul>
             </div>
           </div>

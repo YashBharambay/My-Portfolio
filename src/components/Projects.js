@@ -15,7 +15,7 @@ const Projects = () => {
         <div className="row">
           <div className="col-lg-11 text-center mx-auto col-12">
             <div className="col-lg-8 mx-auto">
-              <h2>Things I have developed ...</h2>
+              <h2>Projects I have developed ...</h2>
             </div>
             <OwlCarousel
               className="owl-theme"
@@ -24,6 +24,8 @@ const Projects = () => {
               margin={10}
               nav
               center={true}
+              autoplay={true}
+              autoplayTimeout={3500}
             >
               <div className="item">
                 <div className="project-info">

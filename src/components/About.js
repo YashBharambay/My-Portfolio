@@ -35,9 +35,14 @@ const About = () => {
               </h1>
 
               <p>
-                Building a successful product is a challenge. I am highly
+                {/* Building a successful product is a challenge. I am highly
                 energetic in user experience design, interfaces and web
-                development.
+                development. */}
+                I am Yash, pursuing Electronics Engineering. Having a keen
+                interest in Web Developement.I am self-motivated and self-taught
+                person who likes to solve my problems.Want to become a Full
+                Stack Developer which will help my clients and will help me in
+                my career growth.
               </p>
 
               <div className="custom-btn-group mt-4">
