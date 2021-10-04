@@ -53,7 +53,7 @@ const Projects = () => {
               <div className="item">
                 <div className="project-info">
                   <a
-                    href="https://github.com/YashBharambay/Crypto_Tracker"
+                    href="https://github.com/YashBharambay/crypto-tracker"
                     target="blank"
                   >
                     <img
