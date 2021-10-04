@@ -2,7 +2,7 @@ import React from "react";
 import First from "../images/project/project-image01-1.png";
 import Second from "../images/project/project-image02.png";
 import Third from "../images/project/project-image03-1.png";
-import Fourth from "../images/project/project-image04.png";
+import Fourth from "../images/project/project-image03-2.png";
 import Five from "../images/project/project-image05.png";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -58,6 +58,21 @@ const Projects = () => {
                   >
                     <img
                       src={Third}
+                      className="img-fluid"
+                      alt="project image"
+                    />
+                  </a>
+                </div>
+              </div>
+
+              <div className="item">
+                <div className="project-info">
+                  <a
+                    href="https://github.com/YashBharambay/gallery-app"
+                    target="blank"
+                  >
+                    <img
+                      src={Fourth}
                       className="img-fluid"
                       alt="project image"
                     />
