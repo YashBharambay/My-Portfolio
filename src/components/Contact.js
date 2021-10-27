@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import toast, { Toaster } from "react-hot-toast";
 
 const Contact = () => {
   const [data, setData] = useState({
@@ -16,7 +17,7 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+    toast.success("Your response is submitted successfully");
     try {
       const response = await fetch(
         "https://v1.nocodeapi.com/pubg/google_sheets/fWXdkclJWVRNzplQ?tabId=Sheet1",
@@ -30,12 +31,14 @@ const Contact = () => {
           ]),
         }
       );
+      // toast.success("Successfully toasted!");
       await response.json();
       setData({ ...data, name: "", email: "", message: "" });
     } catch (err) {
       console.log(err);
     }
   };
+  // const notify = () => toast.success("Successfully toasted!");
   return (
     <section className="contact py-5" id="contact">
       <div className="container">
@@ -154,6 +157,8 @@ const Contact = () => {
                       className="form-control submit-btn"
                       value="Send Button"
                     />
+                    {/* <button onClick={notify}>Make me a toast</button>s */}
+                    <Toaster />
                   </div>
                 </div>
               </form>
