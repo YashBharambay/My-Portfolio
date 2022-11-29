@@ -14,28 +14,28 @@ const Features = () => {
             <div className="timeline">
               <div className="timeline-wrapper">
                 <div className="timeline-yr">
-                  <span>2021</span>
+                  <span>2022</span>
                 </div>
                 <div className="timeline-info">
                   <h3>
                     <span>React Developer Intern</span>
-                    <small>LazyTech Info Solutions</small>
+                    <br/>
+                    <small>Curato</small>
                   </h3>
                   <p>
-                    Done work in both Frontend as well as Backend and React
-                    Native !
+                    Done work in both Frontend as well as Backend.
                   </p>
                 </div>
               </div>
 
               <div className="timeline-wrapper">
                 <div className="timeline-yr">
-                  <span>2020</span>
+                  <span>2021</span>
                 </div>
                 <div className="timeline-info">
                   <h3>
-                    <span>Web - Developer Intern </span>
-                    <small>Promkraft pvt ltd.</small>
+                    <span>Software Developer Intern </span>
+                    <small>LazyTech Info Solutions Pvt Ltd.</small>
                   </h3>
                   <p>A great place to work !</p>
                 </div>

@@ -46,7 +46,8 @@ const Contact = () => {
           <div className="col-lg-5 mr-lg-5 col-12">
             <div className="google-map w-100">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3767.631218915403!2d73.08983221490698!3d19.211303152697766!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be79588e642fc83%3A0x54c406eb85a683b7!2sLaxman%20Smruti!5e0!3m2!1sen!2sin!4v1632825932636!5m2!1sen!2sin"
+              
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6644229881654!2d-74.0622070492773!3d40.747409043284364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c257160d3e5e71%3A0xc1adbad992625a9f!2s27%20Terrace%20Ave%2C%20Jersey%20City%2C%20NJ%2007307!5e0!3m2!1sen!2sus!4v1669742868688!5m2!1sen!2sus"
                 width="400"
                 height="300"
                 frameBorder="0"
@@ -57,7 +58,7 @@ const Contact = () => {
             <div className="contact-info d-flex justify-content-between align-items-center py-4 px-lg-5">
               <div className="contact-info-item">
                 <h3 className="mb-3 text-white">Say hello</h3>
-                <p className="footer-text mb-0">+91 7977965617</p>
+                <p className="footer-text mb-0">+1 (862)800-1180</p>
                 <p>
                   <a href="mailto:ybharambay@gmail.com">ybharambay@gmail.com</a>
                 </p>
