@@ -46,12 +46,12 @@ const Contact = () => {
           <div className="col-lg-5 mr-lg-5 col-12">
             <div className="google-map w-100">
               <iframe
-              
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.6644229881654!2d-74.0622070492773!3d40.747409043284364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c257160d3e5e71%3A0xc1adbad992625a9f!2s27%20Terrace%20Ave%2C%20Jersey%20City%2C%20NJ%2007307!5e0!3m2!1sen!2sus!4v1669742868688!5m2!1sen!2sus"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.1197964125204!2d-74.06565662450036!3d40.73738943606172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2573a9aafe7bd%3A0x722cd0ca507efd84!2s3049%20John%20F.%20Kennedy%20Blvd%2C%20Jersey%20City%2C%20NJ%2007306!5e0!3m2!1sen!2sus!4v1708134555275!5m2!1sen!2sus"
                 width="400"
                 height="300"
                 frameBorder="0"
                 allowFullScreen
+                loading="lazy"
               ></iframe>
             </div>
 
@@ -74,14 +74,12 @@ const Contact = () => {
                     title="Instagram"
                     target="blank"
                   ></a> */}
-                  <a
+                  {/* <a
                     href="https://www.instagram.com/yash_bharambay_/"
                     target="blank"
                   >
-                    {/* <img src="https://img.icons8.com/nolan/30/instagram-new.png" /> */}
-                    {/* <img src="https://img.icons8.com/cotton/30/000000/instagram-new.png" /> */}
                     <img src="https://img.icons8.com/color-glass/30/000000/instagram-new.png" />
-                  </a>
+                  </a> */}
                 </li>
                 <li>
                   <a

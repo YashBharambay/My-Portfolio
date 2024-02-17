@@ -1,7 +1,7 @@
 import React from "react";
 import First from "../images/project/DISNEY.png";
 import Second from "../images/project/mk.png";
-import Third from "../images/project/gallery.png";
+import Third from "../images/project/multipdf_assist.png";
 import Fourth from "../images/project/crypto.png";
 // import Five from "../images/project/project-image05.png";
 import OwlCarousel from "react-owl-carousel";
@@ -16,6 +16,9 @@ const Projects = () => {
                     <div className="col-lg-11 text-center mx-auto  col-12">
                         <div className="col-lg-8 mx-auto">
                             <h2>Projects I have developed ...</h2>
+                            <p>If you want to see some of my amazing projects visit my <a href="https://github.com/YashBharambay" target="blank">
+                    github<img src="https://img.icons8.com/ios-glyphs/30/000000/github.png" />
+                  </a><br/>Click on the projects below to visit to source code</p>
                         </div>
                         <OwlCarousel
                             className="owl-theme"
@@ -73,7 +76,7 @@ const Projects = () => {
                                         <div className=" rounded-circle mx-1 mx-lg-2 mx-md-2 mx-sm-1 green"></div>
                                     </div>
                                     <a
-                                        href="https://github.com/YashBharambay/gallery-app"
+                                        href="https://github.com/YashBharambay/MultiPDF-Assist-App"
                                         target="blank"
                                     >
                                         <img

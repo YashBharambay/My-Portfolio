@@ -14,7 +14,30 @@ const Features = () => {
             <div className="timeline">
               <div className="timeline-wrapper">
                 <div className="timeline-yr">
-                  <span>2022</span>
+                  <span>2023</span>
+                </div>
+                <div className="timeline-info">
+                  <h3>
+                    <span>Software Engineer Intern</span>
+                    <br/>
+                    <h5>Digitus Labs</h5>
+                  </h3>
+                  <p>
+                  - Researched and selected optimal technologies for website revamp.
+                  <br/>
+                  - Containerized application using Docker for streamlined deployment.
+                  <br/>
+                  - Optimized database schema for data integrity and built efficient APIs with Nest JS.
+                  <br/>
+                  - Conducted thorough automated testing for robust code quality.
+                  <br/>
+                  </p>
+                </div>
+              </div>
+
+              <div className="timeline-wrapper">
+                <div className="timeline-yr">
+                  <span>2023</span>
                 </div>
                 <div className="timeline-info">
                   <h3>
@@ -23,21 +46,11 @@ const Features = () => {
                     <small>Curato</small>
                   </h3>
                   <p>
-                    Done work in both Frontend as well as Backend.
+                  - Developed a fully responsive dashboard using NextJS SSR.<br/>
+                  - Implemented an efficient tagging system for content organization.<br/>
+                  - Deployed a user authentication system with social login and one-time pin verification.<br/>
+                  - Worked on frontend and backend tasks.<br/>
                   </p>
-                </div>
-              </div>
-
-              <div className="timeline-wrapper">
-                <div className="timeline-yr">
-                  <span>2021</span>
-                </div>
-                <div className="timeline-info">
-                  <h3>
-                    <span>Software Developer Intern </span>
-                    <small>LazyTech Info Solutions Pvt Ltd.</small>
-                  </h3>
-                  <p>A great place to work !</p>
                 </div>
               </div>
 
@@ -71,27 +84,14 @@ const Features = () => {
             <div className="timeline">
               <div className="timeline-wrapper">
                 <div className="timeline-yr">
-                  <span>2021</span>
+                  <span>2022</span>
                 </div>
                 <div className="timeline-info">
                   <h3>
-                    <span>Self-taught Developer</span>
+                    <span>Master's in Computer Science</span>
                     {/* <small>New Art School</small> */}
                   </h3>
-                  <p>Mastering and learning new skills .</p>
-                </div>
-              </div>
-
-              <div className="timeline-wrapper">
-                <div className="timeline-yr">
-                  <span>2020</span>
-                </div>
-                <div className="timeline-info">
-                  <h3>
-                    <span>Web-Development</span>
-                    <small>Full-Stack</small>
-                  </h3>
-                  <p>Started learning frontend & backend by own.</p>
+                  <p>Stevens Institute of Technology (2022-2024)</p>
                 </div>
               </div>
 
@@ -101,11 +101,11 @@ const Features = () => {
                 </div>
                 <div className="timeline-info">
                   <h3>
-                    <span>Electronics Engineering</span>
+                    <span>Bachelor of Engineering Electronics</span>
                     {/* <small>Creative Agency</small> */}
                   </h3>
                   <p>
-                    Started pursuing four year Electronics enginnering course
+                    University of Mumbai (2018-2024)
                   </p>
                 </div>
               </div>

@@ -2,6 +2,13 @@
     border-radius: 5px;
 }
 
+.project-info img {
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .project-info img:hover {
+    opacity: 0.5;
+  }
 .head {
     border-radius: 5px 5px 0px 0px;
     background-color: #ececec;
@@ -153,6 +160,7 @@ strong {
     top: 0;
     right: 0;
     left: 0;
+    max-width: auto;
     animation: BottomTotop 6s linear infinite 0s;
 }
 .animated-item:nth-child(2n + 2) {
@@ -557,6 +565,8 @@ strong {
         background-color: red;
         margin: auto; */
     }
+
+    
 
     .img-fluid {
         width: 500px !important;
