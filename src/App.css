@@ -9,6 +9,40 @@
   .project-info img:hover {
     opacity: 0.5;
   }
+
+  .project-info {
+    position: relative;
+  }
+  
+  .project-info .project-name {
+    position: absolute;
+    bottom: -30px; /* Adjust the initial position below the image */
+    left: 0;
+    width: 100%;
+    text-align: center;
+    color: #1f1f1f; /* Text color */
+    /* background-color: rgba(0, 0, 0, 0.7); Background color with transparency */
+    padding: 10px; /* Padding around the text */
+    opacity: 0; /* Hide the text overlay by default */
+    transition: opacity 0.3s ease-in-out, bottom 0.3s ease-in-out; /* Add transition for smooth animation */
+    font-family: 'Roboto', sans-serif; /* Apply a modern font */
+    font-size: 18px; /* Adjust the font size */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 1px; /* Add letter spacing */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  }
+  
+  .project-info:hover .project-name {
+    opacity: 1; /* Show the text overlay on hover */
+    bottom: 50%; /* Adjust the final position to center */
+    transform: translateY(50%); /* Center the text vertically */
+  }
+
+  .project-info:hover #project-name-white {
+    color: #eee;
+  }
+  
 .head {
     border-radius: 5px 5px 0px 0px;
     background-color: #ececec;

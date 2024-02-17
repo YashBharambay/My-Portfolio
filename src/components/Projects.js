@@ -3,6 +3,7 @@ import First from "../images/project/DISNEY.png";
 import Second from "../images/project/mk.png";
 import Third from "../images/project/multipdf_assist.png";
 import Fourth from "../images/project/crypto.png";
+import Fifth from "../images/project/endoflifecare.png"
 // import Five from "../images/project/project-image05.png";
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -46,28 +47,11 @@ const Projects = () => {
                                             className="img-fluid"
                                             alt="projectimage"
                                         />
+                                        <div className="project-name" id="project-name-white">Disney Clone</div>
                                     </a>
                                 </div>
                             </div>
-                            <div className="item  rounded mx-5 my-5">
-                                <div className="project-info ">
-                                    <div className="head d-flex align-items-center">
-                                        <div className=" rounded-circle mx-1 mx-lg-2 mx-md-2 mx-sm-1 red"></div>
-                                        <div className=" rounded-circle  yellow"></div>
-                                        <div className=" rounded-circle mx-1 mx-lg-2 mx-md-2 mx-sm-1 green"></div>
-                                    </div>
-                                    <a
-                                        href="https://mangeshkusurkar.vercel.app/"
-                                        target="blank"
-                                    >
-                                        <img
-                                            src={Second}
-                                            className="img-fluid"
-                                            alt="projectimage"
-                                        />
-                                    </a>
-                                </div>
-                            </div>
+                            
                             <div className="item  rounded mx-5 my-5">
                                 <div className="project-info ">
                                     <div className="head d-flex align-items-center">
@@ -84,6 +68,49 @@ const Projects = () => {
                                             className="img-fluid"
                                             alt="projectimage"
                                         />
+                                        <div className="project-name">MultiPDF Assist Gen Ai</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="item  rounded mx-5 my-5">
+                                <div className="project-info ">
+                                    <div className="head d-flex align-items-center">
+                                        <div className=" rounded-circle mx-1 mx-lg-2 mx-md-2 mx-sm-1 red"></div>
+                                        <div className=" rounded-circle  yellow"></div>
+                                        <div className=" rounded-circle mx-1 mx-lg-2 mx-md-2 mx-sm-1 green"></div>
+                                    </div>
+                                    <a
+                                        href="https://github.com/YashBharambay/crypto-tracker"
+                                        target="blank"
+                                    >
+                                        <img
+                                            src={Fifth}
+                                            className="img-fluid"
+                                            alt="projectimage"
+                                        />
+                                        <div className="project-name">Cardio Vascular Disorder Prediction</div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div className="item  rounded mx-5 my-5">
+                                <div className="project-info ">
+                                    <div className="head d-flex align-items-center">
+                                        <div className=" rounded-circle mx-1 mx-lg-2 mx-md-2 mx-sm-1 red"></div>
+                                        <div className=" rounded-circle  yellow"></div>
+                                        <div className=" rounded-circle mx-1 mx-lg-2 mx-md-2 mx-sm-1 green"></div>
+                                    </div>
+                                    <a
+                                        href="https://mangeshkusurkar.vercel.app/"
+                                        target="blank"
+                                    >
+                                        <img
+                                            src={Second}
+                                            className="img-fluid"
+                                            alt="projectimage"
+                                        />
+                                        <div className="project-name" id="project-name-white">Lawyer Portfolio</div>
                                     </a>
                                 </div>
                             </div>
@@ -104,6 +131,7 @@ const Projects = () => {
                                             className="img-fluid"
                                             alt="projectimage"
                                         />
+                                        <div className="project-name">Crypto Tracker</div>
                                     </a>
                                 </div>
                             </div>

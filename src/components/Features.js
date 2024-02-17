@@ -43,7 +43,7 @@ const Features = () => {
                   <h3>
                     <span>React Developer Intern</span>
                     <br/>
-                    <small>Curato</small>
+                    <h5>Curato</h5>
                   </h3>
                   <p>
                   - Developed a fully responsive dashboard using NextJS SSR.<br/>
