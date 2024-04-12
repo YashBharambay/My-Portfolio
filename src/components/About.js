@@ -52,6 +52,21 @@ const About = () => {
                 >
                   Get a free quote
                 </a>
+                  <a
+                    href="https://www.linkedin.com/in/yash-bharambay-9873b220a/"
+                    target="blank"
+                  >
+                    {/* <img src="https://img.icons8.com/nolan/30/linkedin.png" /> */}
+                    <img src="https://img.icons8.com/color/30/000000/linkedin.png" />
+                    {/* <img src="https://img.icons8.com/dotty/30/000000/linkedin.png" /> */}
+                  </a>
+                  <a href="https://github.com/YashBharambay" target="blank">
+                    <img src="https://img.icons8.com/color/30/github--v3.png" />
+                    {/* <img src="https://img.icons8.com/plasticine/30/000000/github.png" /> */}
+                  </a>
+                  <a href="https://twitter.com/YBharambay" target="blank">
+                    <img src="https://img.icons8.com/fluency/30/000000/twitter.png" />
+                  </a>
               </div>
             </div>
           </div>
