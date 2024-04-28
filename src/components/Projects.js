@@ -7,7 +7,7 @@ import Mario from "../images/project/mario.jpeg"
 import Subsplit from "../images/project/subsplit2.png";
 import EOLC from "../images/project/endoflifecare.png"
 import Apartment from "../images/project/apartmentListing.png"
-import OwlCarousel from "react-owl-carousel";
+import Potter from "../images/project/potter_gpt.png"
 import "owl.carousel/dist/assets/owl.carousel.css";
 import "owl.carousel/dist/assets/owl.theme.default.css";
 
@@ -33,6 +33,12 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 
 const Projects = () => {
   const projectData = [
+    {
+      name: "Harry Potter GPT",
+      description: "Harry Potter GPT is an interactive conversational AI model trained on the Harry Potter book series, allowing users to engage in dialogue and generate text in the style of characters from the wizarding world",
+      imageSrc: Potter,
+      link: "https://github.com/YashBharambay/Harry_Potter_GPT",
+    },
     {
       name: "Movie Streaming Website",
       description: "Recreated a popular entertainment platform replica with advanced web technologies such as MERN",
