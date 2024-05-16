@@ -37,7 +37,7 @@ const Projects = () => {
       name: "Harry Potter GPT",
       description: "Harry Potter GPT is an interactive conversational AI model trained on the Harry Potter book series, allowing users to engage in dialogue and generate text in the style of characters from the wizarding world",
       imageSrc: Potter,
-      link: "https://github.com/YashBharambay/Harry_Potter_GPT",
+      link: "https://harrypottergpt.streamlit.app/",
     },
     {
       name: "Movie Streaming Website",
