@@ -40,7 +40,7 @@ const About = () => {
 
               <div className="custom-btn-group mt-4">
                 <a
-                  href="https://drive.google.com/file/d/1aDWU-GTw7UkjxbvKlZbWh35sLrjDen5b/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1oWn1rIA4zd4q5hSSGaG8HGTTqbIQz-Qw/view?usp=sharing"
                   className="btn mr-lg-2 custom-btn"
                   target="_blank"
                 >

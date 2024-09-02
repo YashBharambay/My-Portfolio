@@ -12,6 +12,24 @@ const Features = () => {
             <h2 className="mb-4">Experiences</h2>
 
             <div className="timeline">
+            <div className="timeline-wrapper">
+                <div className="timeline-yr">
+                  <span> Present</span>
+                </div>
+                <div className="timeline-info">
+                  <h3>
+                    <span>Developer Intern (R&D)</span>
+                    <br/>
+                    <h5>Safran Trusted 4d Inc.</h5>
+                  </h3>
+                  <p>
+                  - Designed and developed user-friendly interfaces for over 4 app features using ReactJS and TypeScript, boosting user engagement by 40%.
+                  <br/>
+                  - Partnered with cross functional teams to deliver 1 major software release, successfully meeting project objectives..
+                  <br/>
+                  </p>
+                </div>
+              </div>
               <div className="timeline-wrapper">
                 <div className="timeline-yr">
                   <span>2023</span>
